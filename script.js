@@ -90,8 +90,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // Limpar campos visuais se devolvido? Normalmente sim.
                 document.getElementById(`nome-${id}`).value = '';
                 document.getElementById(`prontuario-${id}`).value = '';
-                document.getElementById(`objetos-${i}`).value = '';
-                document.getElementById(`recebido-${i}`).value = '';
+                document.getElementById(`objetos-${id}`).value = '';
+                document.getElementById(`recebido-${id}`).value = '';
             }
             
         } catch (error) {
@@ -180,3 +180,4 @@ window.exportarDados = async () => {
 };
 
 });
+
